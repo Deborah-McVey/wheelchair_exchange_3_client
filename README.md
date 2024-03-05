@@ -1,3 +1,23 @@
+#For your Front End,
+
+#1.Describe your Front End and how it related to the overall project. Include the purpose, target audience and scope.
+
+#2.Describe the Front End's architecture, including the main features of your application. Please be aware that you should only include features you have already built within the client. Not ones you plan to build.
+
+#3.Describe the setup instructions to start the project.
+
+a. Command Prompt
+b. updated to Angular 17.2
+c. ng new wheelchair_exchange_3_client 
+d. chose SCSS
+e. No for SSR
+
+#4.Refer to the set of packages utilized in the project other than the default ones such as perhaps bootstrap.
+
+#5.Please include the url to your Back End Project's repository.
+
+https://github.com/Deborah-McVey/wheelchair_exchange_3_api
+
 # WheelchairExchange3Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
