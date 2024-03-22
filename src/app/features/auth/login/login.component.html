@@ -1,0 +1,17 @@
+<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="Name"/>
+      <input type="password" placeholder="Password"/>
+      <input type="email" placeholder="Email Address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="Username" name="userName" [(ngModel)]="loginObj.userName"/>
+      <input type="password" placeholder="Password" name="password" [(ngModel)]="loginObj.password"/>
+      <button type="button"(click)="onLogin()">Login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
